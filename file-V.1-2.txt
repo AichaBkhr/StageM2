@@ -1,0 +1,7 @@
+Plein champ; flexible; green; black; 4; 20; 3; [5,6,2]; [3,4,2]
+Serre; standard; gray; black; 2; 5; 2; [5]; [2]
+Parcelle; standard; white; red; 1; 30; 20; [30]; [20]
+contraintes
+dist; [Plein champ, Plein champ]; <=; 8
+dist; [Serre, Serre]; <=; 8
+dist; [Plein champ, Serre]; >; 3
