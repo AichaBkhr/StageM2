@@ -1,0 +1,10 @@
+Plein_champ; green; black; 3; 24; {(4,2)&(2,4)}
+Serre; gray; black; 1; 10; {(5,2)}
+Arbre; pink; black; 3; 36; {(6,2)&(2,6)}
+Mare; blue; black; 1; 16; {(2,8)}
+Fleur; red; black; 1; 24; {(8,3)&(3,8)}
+Parcelle; white; red; 1; 110; {(11,10)}
+Contraintes :
+dist; [Arbre, Serre]; >=; 6
+zonage; [Plein_champ]; {(5,6,6,4)}
+zonage; [Mare]; {(3,0,2,8)}

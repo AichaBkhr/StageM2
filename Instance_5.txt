@@ -1,0 +1,6 @@
+Plein_champ; green; black; 2; 24; {(3,4)}
+Serre; gray; black; 3; 45; {(3,5)}
+Arbre; pink; black; 4; 60; {(5,3)}
+Plein_champ_A; green; black; 2; 40; {(4,5)}
+Arbre_A; pink; black; 1; 12; {(4,3)}
+Parcelle; white; red; 1; 195; {(15,13)}

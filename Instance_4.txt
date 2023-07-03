@@ -1,0 +1,17 @@
+Plein_champ; green; black; 5; 108; {(4,6)&(2,6)}
+Serre; gray; black; 3; 36; {(2,6)}
+Cave; red; black; 1; 12; {(4,3)}
+Arbre; orange; black; 5; 72; {(2,6)&(4,6)}
+Atelier; brown; black; 1; 20; {(4,5)}
+Parcelle; white; red; 1; 378; {(27,14)}
+Contraintes :
+dist; [Plein_champ, Plein_champ]; >=; 7
+dist; [Serre, Arbre]; >=; 5
+dist; [Serre, Serre]; >=; 3
+dist; [Arbre, Arbre]; >=; 3
+dist; [Cave, Atelier]; =; 3
+dist; [Cave, Serre]; >=; 5
+dist; [Atelier, Plein_champ]; >=; 8
+dist; [Atelier, Arbre]; >=; 8
+zonage; [Serre,Arbre,Plein_champ]; {(0,0,27,6)&(0,8,27,6)}
+zonage; [Atelier]; {(11,5,5,6)}

@@ -1,0 +1,4 @@
+Plein_champ; green; black; 5; 70; {(4,5)&(2,5)}
+Serre; gray; black; 2; 20; {(2,5)}
+Arbre; pink; black; 5; 70; {(4,5)&(2,5)}
+Parcelle; white; red; 1; 160; {(16,10)}
